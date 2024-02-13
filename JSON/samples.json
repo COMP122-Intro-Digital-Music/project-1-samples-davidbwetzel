@@ -22,5 +22,17 @@
     "file": "samples/spoken.mp3",
     "bpm": "120",
     "loop": "3m"
+  },
+  {
+    "name": "Whoosh",
+    "file": "samples/whoosh.mp3",
+    "bpm": "120",
+    "loop": "1m"
+  },
+  {
+    "name": "Piano Loop 133",
+    "file": "samples/pianoLoop133-4bars-120bpm.mp3",
+    "bpm": "120",
+    "loop": "4m"
   }
 ]
