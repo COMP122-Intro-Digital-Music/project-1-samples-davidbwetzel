@@ -1,22 +1,22 @@
 [
   {
-    "name": "snare 5",
-    "pitch": "B3",
-    "pattern": "10010"
-  },
-  {
-    "name": "snare 3",
-    "pitch": "B3",
-    "pattern": "100"
-  },
-  {
-    "name": "kick",
+    "name": "Kick",
     "pitch": "A3",
-    "pattern": "1000"
+    "pattern": "100010010"
   },
   {
-    "name": "claps",
+    "name": "Snare",
+    "pitch": "B3",
+    "pattern": "10000101"
+  },
+  {
+    "name": "Claps",
     "pitch": "C4",
-    "pattern": "00001000"
+    "pattern": "1010"
+  },
+  {
+    "name": "Hi Hat",
+    "pitch": "F4",
+    "pattern": "100100101"
   }
 ]
