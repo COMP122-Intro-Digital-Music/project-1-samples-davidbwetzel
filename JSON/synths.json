@@ -1,63 +1,52 @@
 [
   {
-    "name": "Leap Day",
+    "name": "Today",
     "type": "Synth",
     "settings": {
+      "volume": "-10",
       "detune": "0",
-      "portamento": "0.5",
-      "volume": "-12",
-      "oscillator": {
-        "type": "fmcustom",
-        "harmonicity": "1",
-        "phase": 0,
-        "partialCount": "8",
-        "partials": [
-          "1",
-          "0.32",
-          "0.58",
-          "0.21",
-          "0.47",
-          "0.16",
-          "0.38",
-          "0.14"
-        ],
-        "modulationType": "square",
-        "modulationIndex": "10"
-      },
+      "portamento": "0.05",
       "envelope": {
-        "attack": "2",
+        "attack": "0.05",
         "attackCurve": "linear",
-        "decay": "0.01",
-        "decayCurve": "linear",
-        "sustain": "0.5",
-        "release": "2",
-        "releaseCurve": "bounce"
+        "decay": "0.1",
+        "decayCurve": "exponential",
+        "release": "1",
+        "releaseCurve": "exponential",
+        "sustain": "0.3"
+      },
+      "oscillator": {
+        "partialCount": "0",
+        "partials": [],
+        "phase": 0,
+        "type": "fmsine",
+        "harmonicity": "2",
+        "modulationType": "square",
+        "modulationIndex": "3"
       }
     }
   },
   {
-    "name": "Groundhog Day",
+    "name": "Tomorrow",
     "type": "Synth",
     "settings": {
+      "volume": "-16",
       "detune": "0",
       "portamento": "0.5",
-      "volume": "-16",
+      "envelope": {
+        "attack": "0.5",
+        "attackCurve": "linear",
+        "decay": "0.2",
+        "decayCurve": "exponential",
+        "release": "1.5",
+        "releaseCurve": "exponential",
+        "sustain": "0.3"
+      },
       "oscillator": {
-        "type": "fatsquare",
-        "phase": 0,
         "partialCount": "0",
         "partials": [],
-        "count": "5",
-        "spread": "50"
-      },
-      "envelope": {
-        "attack": "0.1",
-        "attackCurve": "linear",
-        "decay": "0.1",
-        "decayCurve": "linear",
-        "sustain": "0.5",
-        "release": "1.5",
-        "releaseCurve": "linear"
+        "phase": 0,
+        "type": "sawtooth"
       }
     }
   }
