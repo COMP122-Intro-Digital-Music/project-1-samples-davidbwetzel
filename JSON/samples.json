@@ -1,1 +1,20 @@
-[ ]
+[
+  {
+    "name": "Guitar",
+    "file": "samples/Apollo_01_Guitar_Bb_75bpm.wav",
+    "bpm": "75",
+    "loop": "8m"
+  },
+  {
+    "name": "Synth",
+    "file": "samples/Apollo_01_Synth_Bb_75bpm.wav",
+    "bpm": "75",
+    "loop": "8m"
+  },
+  {
+    "name": "Bass",
+    "file": "samples/Apollo_02_Bass_Bb_75bpm.wav",
+    "bpm": "75",
+    "loop": "8m"
+  }
+]

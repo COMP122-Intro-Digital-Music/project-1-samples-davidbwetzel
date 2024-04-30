@@ -1,3 +1,1 @@
-# Samples folder
-
-upload your samples to this folder
+# Upload your samples to this directory

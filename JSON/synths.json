@@ -1,1 +1,53 @@
-[ ]
+[
+  {
+    "name": "Today",
+    "type": "Synth",
+    "settings": {
+      "volume": "-10",
+      "detune": "0",
+      "portamento": "0.05",
+      "envelope": {
+        "attack": "0.05",
+        "attackCurve": "linear",
+        "decay": "0.1",
+        "decayCurve": "exponential",
+        "release": "1",
+        "releaseCurve": "exponential",
+        "sustain": "0.3"
+      },
+      "oscillator": {
+        "partialCount": "0",
+        "partials": [],
+        "phase": 0,
+        "type": "fmsine",
+        "harmonicity": "2",
+        "modulationType": "square",
+        "modulationIndex": "3"
+      }
+    }
+  },
+  {
+    "name": "Tomorrow",
+    "type": "Synth",
+    "settings": {
+      "volume": "-16",
+      "detune": "0",
+      "portamento": "0.5",
+      "envelope": {
+        "attack": "0.5",
+        "attackCurve": "linear",
+        "decay": "0.2",
+        "decayCurve": "exponential",
+        "release": "1.5",
+        "releaseCurve": "exponential",
+        "sustain": "0.3"
+      },
+      "oscillator": {
+        "partialCount": "0",
+        "partials": [],
+        "phase": 0,
+        "type": "sawtooth"
+      }
+    }
+  }
+]
